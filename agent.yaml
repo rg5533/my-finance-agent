@@ -1,0 +1,9 @@
+name: finance-tracker-agent
+entry_point: main.py
+description: An autonomous finance agent that processes bank statements and adjusts budgets.
+tools:
+  - tools.extract_pdf.ExtractPDFTool
+  - tools.categorize.CategorizeTool
+  - tools.update_notion.UpdateNotionTool
+  - tools.adjust_budget.AdjustBudgetTool
+  - tools.send_digest.SendDigestTool
