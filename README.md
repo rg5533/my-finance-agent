@@ -1,4 +1,4 @@
-# Finance Tracker Agent using Google ADK & Vertex AI
+# Finance Tracker Agent using Google ADK & Vertex AI Runtime
 
 This project demonstrates how to build a fully autonomous, tool-driven AI agent using the **Google Agent Development Kit (ADK)** and deploy it to **Vertex AI Agents Runtime**.
 
@@ -28,7 +28,7 @@ This project demonstrates how to build a fully autonomous, tool-driven AI agent 
 
 1. **Install ADK**
    ```bash
-   pip install google-agent-sdk
+   pip install google-adk
    ```
 
 2. **Set environment variables**
